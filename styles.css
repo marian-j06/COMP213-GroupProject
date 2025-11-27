@@ -1,0 +1,105 @@
+/* ---------- GENERAL PAGE STYLES ---------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7fbff;
+    margin: 0;
+    padding: 0 30px;  /* ADDED padding to the whole page */
+    color: black;
+}
+
+/* Container for all content */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 12px; /* ROUNDED CORNERS */
+    box-sizing: border-box;
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background-color: #d3e9ff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-radius: 12px; /* ROUNDED */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    border-radius: 12px; /* ROUNDED */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #d3e9ff;
+}
+
+/* ---------- MAIN CONTENT ---------- */
+main {
+    padding: 20px 10px;
+}
+
+h2 {
+    color: #1b4b7a;
+}
+
+/* Realtor box */
+.profile-box {
+    display: flex;
+    gap: 20px;
+    background-color: #eef5ff;
+    padding: 20px;
+    border: 1px solid #d3e9ff;
+    border-radius: 12px; /* ROUNDED */
+}
+
+.profile-box img {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px; /* Rounded picture */
+}
+
+/* Mission section */
+.mission {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f7ff;
+    border-left: 4px solid #1b4b7a;
+    border-radius: 12px; /* ROUNDED */
+}
+
+/* Testimonials */
+.testimonial {
+    background-color: #eef5ff;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 3px solid black;
+    border-radius: 12px; /* ROUNDED */
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #d3e9ff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 2px solid black;
+    border-radius: 12px; /* ROUNDED */
+}
