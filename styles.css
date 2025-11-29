@@ -103,3 +103,54 @@ footer {
     border-top: 2px solid black;
     border-radius: 12px; /* ROUNDED */
 }
+
+/* ---------- PROPERTY LISTINGS ---------- */
+
+.property-listing {
+    border: 1px solid #d3e9ff;
+    border-radius: 12px; /* ROUNDED */
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9fbff;
+    /* fluid responsive grid without media queries */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.property {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 0;
+    padding: 12px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.property img {
+    border: 2px solid black;
+    border-radius: 10px; /* Rounded property images */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+}
+
+.property h3 {
+    margin: 0;
+    color: #1b4b7a;
+}
+
+#Fproperties {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.property p {
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
