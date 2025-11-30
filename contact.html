@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Ian Michaels – Real Estate Agent</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+            <h1>Contact Ian Michaels</h1>
+            <p>If you have any questions or would like to get in touch, please fill up the form below.</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="properties.html">Properties for Sale</a>
+        <a href="listing1.html">Listing 1</a>
+        <a href="listing2.html">Listing 2</a>
+        <a href="listing3.html">Listing 3</a>
+        <a href="contact.html">Contact</a>
+        <a href="sitemap.html">Site Map & Credits</a>
+    </nav>
+    <main>
+        <form action="mailto:Ianm@sample.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Contact Form</legend>
+                <p>
+                    <label>First Name:</label>
+                    <input type="text" name="firstName" placeholder="Your first name" required="required">
+                </p>
+                <p>
+                    <label>Last Name:</label>
+                    <input type="text" name="lastName" placeholder="Your last name" required="required">
+                </p>
+                <p>
+                    <label>Phone Number:</label>
+                    <input type="tel" name="phoneNumber" placeholder="Your phone number" required="required">
+                </p>
+                <p>
+                    <label>Email Address:</label>
+                    <input type="email" name="emailAddress" placeholder="Your email address" required="required">
+                </p>
+                <p>
+                    <label>Type of Property:</label>
+                    <select name="propertyType" required="required">
+                        <option value="" disabled selected>Select property type</option>
+                        <option value="Semi-Detached">Semi-Detached</option>
+                        <option value="Detached">Detached</option>
+                        <option value="Condominium">Condominium</option>
+                        <option value="Apartment">Apartment</option>
+                        <option value="Townhouse">Townhouse</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <label>Number of Bedrooms:</label>
+                    <input type="number" name="bedrooms" min="0" placeholder="Number of bedrooms" required="required">
+                </p>
+                <p>
+                    <label>Price Range:</label>
+                    <input type="text" name="priceRange" placeholder="Your price range" required="required">
+                </p>
+                <p>
+                    <label>Additional Comments:</label>
+                    <textarea name="comments" rows="4" cols="50" placeholder="Your comments"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </p>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
