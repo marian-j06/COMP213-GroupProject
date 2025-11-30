@@ -68,6 +68,8 @@ h2 {
     padding: 20px;
     border: 1px solid #d3e9ff;
     border-radius: 12px; /* ROUNDED */
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .profile-box img {
@@ -153,4 +155,61 @@ footer {
 .property p {
     margin: 5px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------- FORM STYLES ---------- */
+form {
+    background-color: #eef5ff;
+    padding: 20px;
+    border: 1px solid #d3e9ff;
+    border-radius: 12px; /* ROUNDED */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+  border: 2px solid #002e64;
+  padding: 18px 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #1b4b7a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #155183;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #002e64;
 }
