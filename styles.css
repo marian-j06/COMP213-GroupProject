@@ -150,6 +150,8 @@ footer {
 #Fproperties {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .property p {
