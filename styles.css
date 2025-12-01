@@ -221,3 +221,11 @@ legend {
     height: auto;
     padding-top: 30px;
 }
+
+.pair {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+}
