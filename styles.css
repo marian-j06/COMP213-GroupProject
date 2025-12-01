@@ -11,7 +11,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: white;
+    background-color: rgb(221, 221, 221);
     padding: 20px 40px;
     border-radius: 12px; /* ROUNDED CORNERS */
     box-sizing: border-box;
@@ -73,9 +73,9 @@ h2 {
 }
 
 .profile-box img {
-    width: 200px;
     border: 2px solid black;
     border-radius: 10px; /* Rounded picture */
+
 }
 
 /* Mission section */
@@ -212,4 +212,10 @@ legend {
     font-weight: bold;
     padding: 0 10px;
     color: #002e64;
+}
+
+.listImg3 {
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
 }
