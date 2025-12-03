@@ -243,3 +243,16 @@ legend {
     color: #1b4b7a;
     font-weight: bold;
 }
+
+/* ---------- SITEMAP AND CREDITS ---------- */
+
+ul {
+list-style-position: inside; /* Moves bullet closer to text */
+padding-left: 0; /* Remove excessive indent */
+margin-left: 0; /* Align list with content */
+}
+
+
+li {
+padding: 0.4rem 0;
+}
