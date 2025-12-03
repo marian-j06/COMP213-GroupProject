@@ -11,7 +11,7 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: white;
+    background-color: rgb(221, 221, 221);
     padding: 20px 40px;
     border-radius: 12px; /* ROUNDED CORNERS */
     box-sizing: border-box;
@@ -68,12 +68,14 @@ h2 {
     padding: 20px;
     border: 1px solid #d3e9ff;
     border-radius: 12px; /* ROUNDED */
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 .profile-box img {
-    width: 200px;
     border: 2px solid black;
     border-radius: 10px; /* Rounded picture */
+
 }
 
 /* Mission section */
@@ -102,4 +104,128 @@ footer {
     margin-top: 20px;
     border-top: 2px solid black;
     border-radius: 12px; /* ROUNDED */
+}
+
+/* ---------- PROPERTY LISTINGS ---------- */
+
+.property-listing {
+    border: 1px solid #d3e9ff;
+    border-radius: 12px; /* ROUNDED */
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #f9fbff;
+    /* fluid responsive grid without media queries */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.property {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    margin-bottom: 0;
+    padding: 12px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.property img {
+    border: 2px solid black;
+    border-radius: 10px; /* Rounded property images */
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+}
+
+.property h3 {
+    margin: 0;
+    color: #1b4b7a;
+}
+
+#Fproperties {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.property p {
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------- FORM STYLES ---------- */
+form {
+    background-color: #eef5ff;
+    padding: 20px;
+    border: 1px solid #d3e9ff;
+    border-radius: 12px; /* ROUNDED */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+fieldset {
+  border: 2px solid #002e64;
+  padding: 18px 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #1b4b7a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #155183;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #002e64;
+}
+
+.listImg3 {
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+}
+
+.pair {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
 }
