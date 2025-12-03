@@ -235,3 +235,11 @@ legend {
     height: auto;
     padding-top: 30px;
 }
+
+#top {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #1b4b7a;
+    font-weight: bold;
+}
