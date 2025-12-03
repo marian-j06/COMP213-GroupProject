@@ -229,3 +229,9 @@ legend {
     margin-bottom: 20px;
     vertical-align: top;
 }
+
+.listImg1 {
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+}
