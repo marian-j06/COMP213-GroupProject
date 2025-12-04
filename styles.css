@@ -243,3 +243,8 @@ legend {
     color: #1b4b7a;
     font-weight: bold;
 }
+.listImg2 {
+    width: 50%;
+    height: auto;
+    padding-top: 30px;
+}
