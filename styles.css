@@ -243,8 +243,23 @@ legend {
     color: #1b4b7a;
     font-weight: bold;
 }
+<<<<<<< HEAD
 .listImg2 {
     width: 50%;
     height: auto;
     padding-top: 30px;
+=======
+
+/* ---------- SITEMAP AND CREDITS ---------- */
+
+ul {
+list-style-position: inside; /* Moves bullet closer to text */
+padding-left: 0; /* Remove excessive indent */
+margin-left: 0; /* Align list with content */
+}
+
+
+li {
+padding: 0.4rem 0;
+>>>>>>> a909d6a5cd05163a73548a09ba552b6764308853
 }
