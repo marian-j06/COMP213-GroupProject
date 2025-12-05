@@ -256,6 +256,36 @@ legend {
     height: auto;
     padding-top: 30px;
 }
+
+.listingImages {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.big-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.big-img {
+    flex: 2; /* biggest area */
+}
+
+.small-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1; /* smaller area */
+}
+
+.small-imgs img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
 /* SITEMAP AND CREDITS */
 ul {
     padding-left: 20px;    
