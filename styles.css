@@ -1,4 +1,4 @@
-/* ---------- GENERAL PAGE STYLES ---------- */
+/* GENERAL PAGE STYLES */
 body {
     font-family: Arial, sans-serif;
     background-color: #f7fbff;
@@ -17,7 +17,7 @@ body {
     box-sizing: border-box;
 }
 
-/* ---------- HEADER ---------- */
+/* HEADER */
 header {
     background-color: #d3e9ff;
     padding: 20px;
@@ -31,7 +31,7 @@ header h1 {
     font-size: 32px;
 }
 
-/* ---------- NAVIGATION ---------- */
+/* NAVIGATION */
 nav {
     background-color: #ffffff;
     padding: 10px;
@@ -51,7 +51,7 @@ nav a:hover {
     background-color: #d3e9ff;
 }
 
-/* ---------- MAIN CONTENT ---------- */
+/*  MAIN CONTENT  */
 main {
     padding: 20px 10px;
 }
@@ -62,21 +62,35 @@ h2 {
 
 /* Realtor box */
 .profile-box {
-    display: flex;
-    gap: 20px;
-    background-color: #eef5ff;
-    padding: 20px;
-    border: 1px solid #d3e9ff;
-    border-radius: 12px; /* ROUNDED */
-    align-items: center;
-    margin-bottom: 20px;
+    display: flex;               
+    align-items: center;       
+    gap: 30px;                  
+    margin-top: 40px;          
+    padding: 40px;             
+    background-color: #f0f7ff;
+    border-left: 6px solid #1b4b7a; 
+    border-radius: 16px;    
 }
 
-.profile-box img {
-    border: 2px solid black;
-    border-radius: 10px; /* Rounded picture */
-
+.img-container {
+    background-color: black;   
+    padding: 5px;
+    border-radius: 16px;        
+    display: inline-block;       
 }
+
+.img-container img {
+    display: block;              
+    width: 200px;               
+    height: auto;                
+    border-radius: 16px;          
+}
+
+.profile-box div p {
+    font-size: 1.1em;            
+    line-height: 1.5;            
+}
+
 
 /* Mission section */
 .mission {
@@ -96,7 +110,7 @@ h2 {
     border-radius: 12px; /* ROUNDED */
 }
 
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 footer {
     background-color: #d3e9ff;
     text-align: center;
@@ -106,7 +120,7 @@ footer {
     border-radius: 12px; /* ROUNDED */
 }
 
-/* ---------- PROPERTY LISTINGS ---------- */
+/* PROPERTY LISTINGS */
 
 .property-listing {
     display: flex;         
@@ -152,7 +166,7 @@ footer {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* ---------- FORM STYLES ---------- */
+/*  FORM STYLES  */
 form {
     background-color: #eef5ff;
     padding: 20px;
@@ -242,7 +256,7 @@ legend {
     height: auto;
     padding-top: 30px;
 }
-/* ---------- SITEMAP AND CREDITS ---------- */
+/* SITEMAP AND CREDITS */
 ul {
     padding-left: 20px;    
     margin: 10px 0;       
