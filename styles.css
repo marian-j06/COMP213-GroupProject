@@ -109,27 +109,20 @@ footer {
 /* ---------- PROPERTY LISTINGS ---------- */
 
 .property-listing {
-    border: 1px solid #d3e9ff;
-    border-radius: 12px; /* ROUNDED */
-    padding: 15px;
-    margin: 15px 0;
-    background-color: #f9fbff;
-    /* fluid responsive grid without media queries */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    align-items: start;
+    display: flex;           /* side-by-side layout */
+    flex-wrap: wrap;         /* wrap to next line if needed */
+    gap: 20px;               /* space between each property */
+    margin: 20px 0;          /* spacing above and below */
 }
 
 .property {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: flex-start;
-    margin-bottom: 0;
-    padding: 12px;
-    background: #ffffff;
-    border-radius: 10px;
+    background-color: #f9fbff;   /* light background */
+    border: 1px solid #d3e9ff;   /* subtle border */
+    border-radius: 12px;          /* rounded corners */
+    padding: 15px;                /* inner spacing */
+    flex: 1 1 250px;              /* flexible width, min 250px */
+    box-sizing: border-box;       /* include padding in width */
+    text-align: center;            /* center text */
 }
 
 .property img {
@@ -243,13 +236,10 @@ legend {
     color: #1b4b7a;
     font-weight: bold;
 }
-<<<<<<< HEAD
 .listImg2 {
     width: 50%;
     height: auto;
     padding-top: 30px;
-=======
-
 /* ---------- SITEMAP AND CREDITS ---------- */
 
 ul {
@@ -258,8 +248,7 @@ padding-left: 0; /* Remove excessive indent */
 margin-left: 0; /* Align list with content */
 }
 
-
 li {
-padding: 0.4rem 0;
->>>>>>> a909d6a5cd05163a73548a09ba552b6764308853
-}
+    padding: 0.4em 0;
+    text-align: left;
+}}
